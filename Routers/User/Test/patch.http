@@ -1,0 +1,6 @@
+PATCH  http://localhost:5000/api/server/patch/:username
+Content-Type: application/json
+
+{
+
+}

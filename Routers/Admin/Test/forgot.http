@@ -1,0 +1,8 @@
+POST  http://localhost:5000/api/server/forgot
+Content-Type: application/json
+
+{
+"email":"ramseslove52@gmail.com",
+"password":"Ramses234",
+"cpassword":"Ramses234"
+}

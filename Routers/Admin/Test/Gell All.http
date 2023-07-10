@@ -1,0 +1,6 @@
+GET  http://localhost:6500/api/server/fetch
+Content-Type: application/json
+
+{
+     
+}

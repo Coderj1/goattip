@@ -1,0 +1,12 @@
+POST http://localhost:4000/api/server/mypost 
+Content-Type: application/json
+
+{  
+ "date": "22/05/2023",  
+ "time":"20:00",
+ "league":"La Liga",
+ "game":"Football",
+ "match":"Real Betis Vs Atletico Bilbao",
+ "tip":"V2"
+
+}
