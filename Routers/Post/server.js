@@ -5,6 +5,7 @@ const dotenv = require('dotenv')
 const routeDets = require('./routes/route')
 const cors = require('cors')
 const Database = "mongodb://127.0.0.1:27017/Ticket";
+const Port = 4000
 
 
 dotenv.config()
@@ -27,4 +28,4 @@ app.use(cors())
 
 /* routes */
 app.use('/api/server', routeDets)
-app.listen(4000, () => console.log("server is now runing"))
+app.listen(Port, () => console.log("server is now runing"))
