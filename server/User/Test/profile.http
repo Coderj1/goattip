@@ -1,0 +1,4 @@
+curl -H "Authorization: Bearer <eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
+.eyJlbWFpbCI6InJhbXNlc2xvdmU1MkBnbWFpbC5jb20iLCJpYXQiOjE2ODY3ODk3O
+DgsImV4cCI6MTY4NjgwNDE4OH0.kxD6b6_6cX3lS8eKz2e1P0DNSoALoCK5mcBwSdzC_d4>" 
+  http://localhost:4000/api/server/profile

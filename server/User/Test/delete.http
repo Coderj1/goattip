@@ -1,0 +1,6 @@
+DELETE  http://localhost:5000/api/server/delete/:username
+Content-Type: application/json
+
+{
+    
+}

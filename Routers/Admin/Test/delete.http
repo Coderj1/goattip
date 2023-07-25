@@ -1,6 +1,0 @@
-DELETE  http://localhost:6000/api/server/delete/:field
-Content-Type: application/json
-
-{
-    
-}
