@@ -4,7 +4,7 @@
   "scripts": {
     "start:frontend": "cd client && npm start",
     "start:backend": "cd server && npm start",
-    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\""
+    "start": "npm start"
   },
   "keywords": [],
   "author": "",
