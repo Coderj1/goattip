@@ -1,11 +1,10 @@
 {
   "name": "goattip",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run start"
+    "start:frontend": "cd client && npm start",
+    "start:backend": "cd server && npm start",
+    "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\""
   },
   "keywords": [],
   "author": "",
