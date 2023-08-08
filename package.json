@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start:frontend": "cd client && npm start",
-    "start:backend": "cd server && npm start",
-    "start": "npm start"
+    "start:backend": "cd server && noder server.js"
   },
   "keywords": [],
   "author": "",
