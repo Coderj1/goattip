@@ -2,7 +2,9 @@
   "name": "goattip",
   "version": "1.0.0",
   "scripts": {
-    "start": "node server.js"
+    "start": "concurrently \"npm run start-backend\" \"npm run start-frontend\"",
+  "start-server": "node server.js",
+  "start-client": "cd client && npm start"
   },
   "keywords": [],
   "author": "",
