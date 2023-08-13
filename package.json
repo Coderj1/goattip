@@ -2,7 +2,7 @@
   "name": "goattip",
   "version": "1.0.0",
   "scripts": {
-    "start": "npm start",
+    "start": "npm start"
   },
   "keywords": [],
   "author": "",
