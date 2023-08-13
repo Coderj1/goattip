@@ -2,9 +2,7 @@
   "name": "goattip",
   "version": "1.0.0",
   "scripts": {
-    "server": "node server.js --quiet server",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "start": "npm start",
   },
   "keywords": [],
   "author": "",
